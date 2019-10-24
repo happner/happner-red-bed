@@ -1,0 +1,16 @@
+const Mesh = require('happner-2');
+
+let mesh = new Mesh();
+mesh.initialize(
+  require('../happner-config'),
+  function(err) {
+    if (err) throw err;
+    mesh.start(function(err) {
+      if (err) throw err;
+      console.log('***********************************************************************************************************************');
+      console.log('started successfully, navigate to http://localhost:8000/nodered to look at the test flow');
+      console.log('you can call a nodered flow by name using the nodered component on the exchange, see ./test/integration/lib/component');
+      console.log('***********************************************************************************************************************');
+    });
+  }
+);

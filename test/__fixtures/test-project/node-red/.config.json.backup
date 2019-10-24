@@ -377,6 +377,16 @@
      "module": "node-red",
      "file": "/Users/simonbishop/Documents/projects/happner-red-bed/test/__fixtures/test-project/nodes/happner-in-node.js"
     },
+    "happner-out-node-error": {
+     "name": "happner-out-node-error",
+     "types": [
+      "happner-out-node-error"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/Users/simonbishop/Documents/projects/happner-red-bed/test/__fixtures/test-project/nodes/happner-out-node-error.js"
+    },
     "happner-out-node": {
      "name": "happner-out-node",
      "types": [

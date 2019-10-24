@@ -22,6 +22,5 @@ module.exports = {
       names: [],
       type: 'blacklist'
     }
-  },
-  services:{}
+  }
 };

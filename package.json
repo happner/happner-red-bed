@@ -1,0 +1,26 @@
+{
+  "name": "happner-red-bed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/component.js",
+  "scripts": {
+    "test": "mocha test/integration/**/** test/unit/**/**",
+    "release": "rm -rf node_modules && npm i && npm test",
+    "pre-release": "rm -rf package-lock.json && rm -rf node_modules && npm i && npm test",
+    "prepare": "require-self"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "happner-2": "^10.5.0",
+    "mocha": "^6.1.4",
+    "request": "^2.88.0",
+    "require-self": "^0.2.1",
+    "why-is-node-running": "^2.1.0",
+    "expect.js": "^0.3.1"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "red-bed": "^2.1.0"
+  }
+}
